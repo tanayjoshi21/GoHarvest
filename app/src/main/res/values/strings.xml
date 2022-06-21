@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">GoHarvest</string>
+    <string name="details"><br></br>
+Get Informed Decisions About Your Farming Strategy<br></br></string>
+    <string name="heading">Go Harvest </string>
+    <string-array name="CropType">
+        <item>rice</item>
+        <item>maize</item>
+        <item>chickpea</item>
+        <item>kidneybeans</item>
+        <item>pigeonbeas</item>
+        <item>mothbeans</item>
+        <item>mungbean</item>
+        <item>blackgram</item>
+        <item>lentil</item>
+        <item>pomegranate</item>
+        <item>banana</item>
+        <item>mango</item>
+        <item>grapes</item>
+        <item>watermelon</item>
+        <item>muskmelon</item>
+        <item>apple</item>
+        <item>orange</item>
+        <item>papaya</item>
+        <item>coconut</item>
+        <item>cotton</item>
+        <item>jute</item>
+        <item>coffee</item>
+    </string-array>
+
+</resources>

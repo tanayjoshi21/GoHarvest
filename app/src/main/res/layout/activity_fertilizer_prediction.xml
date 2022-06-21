@@ -1,0 +1,192 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#3F704D"
+    >
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/ubuntulight"
+        android:gravity="center"
+        android:text="Get informed advice on fertilizer based on soil"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="80dp"
+        android:alpha="0.7"
+        android:background="@drawable/fertcrop">
+
+        <TextView
+            android:id="@+id/nitrogen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="35dp"
+            android:fontFamily="@font/ubuntulight"
+            android:text="Nitrogen"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/nitrogenvalue"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nitrogen"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/ubuntulight"
+            android:inputType="numberSigned"
+            android:hint="Enter the value"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/phosphorus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nitrogenvalue"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/ubuntulight"
+            android:text="Phosporus"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/phosphorusvalue"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phosphorus"
+            android:layout_marginStart="40dp"
+            android:fontFamily="@font/ubuntulight"
+            android:inputType="numberSigned"
+            android:layout_marginTop="15dp"
+            android:hint="Enter the value"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pottasium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phosphorusvalue"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/ubuntulight"
+            android:text="Pottasium :"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/pottasiumvalue"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pottasium"
+            android:layout_marginStart="40dp"
+            android:fontFamily="@font/ubuntulight"
+            android:layout_marginTop="15dp"
+            android:inputType="numberSigned"
+            android:hint="Enter the value"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/crop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pottasiumvalue"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/ubuntulight"
+            android:text="Crop :"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/selectcrop"
+            style="@style/ThemeOverlay.Material3.TextInputEditText.FilledBox.Dense"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/crop"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp">
+
+            <AutoCompleteTextView
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#81C784"
+                android:inputType="none"
+                android:text="Select Crop"
+                android:textColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/selectcrop"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buutonlayout"
+            android:text="Predict Fertilizer"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bottombar"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="25dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/home" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="25dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/crop" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="25dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/fertilizer" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/aboutus" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

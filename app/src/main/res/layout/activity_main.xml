@@ -1,0 +1,186 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layoutfile"
+    android:visibility="visible">
+
+    <!--    tool bar yha khtm hoga -->
+    <!-- yha se niche ki body design hogi -->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#424242">
+
+        <ImageView
+            android:id="@+id/logo_img"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/GoHarvest_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/ubuntulight"
+            android:gravity="fill"
+            android:text="GoHarvest"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar">
+
+        <ImageView
+            android:id="@+id/index"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="-33dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/land" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/indexText"
+            android:fontFamily="@font/ubuntulight"
+            android:text="@string/heading"
+             android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/indexText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/index"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="38dp"
+            android:fontFamily="@font/ubuntulight"
+            android:gravity="center"
+            android:text="@string/details"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/services"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/index"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30sp"
+            android:text=" Our Services"
+            android:fontFamily="@font/ubuntulight"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/services"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/service1"
+                android:layout_width="150dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/carddrwaablefile">
+
+                <ImageButton
+                    android:id="@+id/service1butt"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:focusable="true"
+                    android:onClick="fertilizerprediction"
+                    android:focusableInTouchMode="true"
+                    android:src="@drawable/services1" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/fertilizerpredict"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/service1butt"
+                    android:layout_centerInParent="true"
+                    android:focusable="true"
+                    android:onClick="fertilizerprediction"
+                    android:text="Predict Fertilizerr" />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/service2"
+                android:layout_width="150dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/carddrwaablefile" >
+
+                <ImageButton
+                    android:id="@+id/service2butt"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:focusable="true"
+                    android:onClick="cropprediction"
+                    android:focusableInTouchMode="true"
+                    android:src="@drawable/services2" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/croppredict"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/service2butt"
+                    android:layout_centerInParent="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:onClick="cropprediction"
+                    android:text="Predict Crop" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottommenu">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="  © All Copyright GoHarvest "
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

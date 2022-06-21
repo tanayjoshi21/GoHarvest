@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Tanay/AndroidStudioProjects/GoHarvest/app/src/main/res/drawable/bottombar.xml" value="0.124" />
+        <entry key="..\:/Users/Tanay/AndroidStudioProjects/GoHarvest/app/src/main/res/drawable/bottommenu.xml" value="0.132" />
+        <entry key="..\:/Users/Tanay/AndroidStudioProjects/GoHarvest/app/src/main/res/drawable/button_default.xml" value="0.124" />
+        <entry key="..\:/Users/Tanay/AndroidStudioProjects/GoHarvest/app/src/main/res/drawable/button_default_click.xml" value="0.124" />
+        <entry key="..\:/Users/Tanay/AndroidStudioProjects/GoHarvest/app/src/main/res/drawable/button_default_normal.xml" value="0.124" />
+        <entry key="..\:/Users/Tanay/AndroidStudioProjects/GoHarvest/app/src/main/res/drawable/buutonlayout.xml" value="0.124" />
+        <entry key="..\:/Users/Tanay/AndroidStudioProjects/GoHarvest/app/src/main/res/drawable/carddrwaablefile.xml" value="0.1575" />
+        <entry key="..\:/Users/Tanay/AndroidStudioProjects/GoHarvest/app/src/main/res/drawable/fertcrop.xml" value="0.124" />
+        <entry key="..\:/Users/Tanay/AndroidStudioProjects/GoHarvest/app/src/main/res/drawable/ic_launcher_background.xml" value="0.132" />
+        <entry key="..\:/Users/Tanay/AndroidStudioProjects/GoHarvest/app/src/main/res/drawable/image.xml" value="0.132" />
+        <entry key="..\:/Users/Tanay/AndroidStudioProjects/GoHarvest/app/src/main/res/drawable/layoutfile.xml" value="0.132" />
+        <entry key="..\:/Users/Tanay/AndroidStudioProjects/GoHarvest/app/src/main/res/layout/activity_crop_prediction.xml" value="0.22" />
+        <entry key="..\:/Users/Tanay/AndroidStudioProjects/GoHarvest/app/src/main/res/layout/activity_fertilizer_prediction.xml" value="0.215625" />
+        <entry key="..\:/Users/Tanay/AndroidStudioProjects/GoHarvest/app/src/main/res/layout/activity_loadingactivity.xml" value="0.215625" />
+        <entry key="..\:/Users/Tanay/AndroidStudioProjects/GoHarvest/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Tanay/AndroidStudioProjects/GoHarvest/app/src/main/res/layout/activity_opening_screen.xml" value="0.215625" />
+        <entry key="..\:/Users/Tanay/AndroidStudioProjects/GoHarvest/app/src/main/res/layout/drop.xml" value="0.2015625" />
+        <entry key="..\:/Users/Tanay/AndroidStudioProjects/GoHarvest/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.124" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
